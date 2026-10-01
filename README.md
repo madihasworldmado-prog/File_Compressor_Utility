@@ -125,7 +125,7 @@ The main application source file containing:
 - Compression-method selection
 - Validation and progress display
 
-### `deflate_1.h`
+### `deflate.h`
 
 A custom, user-defined header containing the DEFLATE compression and decompression implementation. It includes bit-level reading/writing, fixed Huffman coding, LZ77 matching, length/distance encoding, and the public compression/decompression functions.
 
